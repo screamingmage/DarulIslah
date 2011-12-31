@@ -92,6 +92,14 @@ header {
 	color: black;
 }
 
+#tweets ul li {
+	
+}
+
+.tweet_list {
+	list-style: none;
+}
+
 footer {
 	text-align: center;
 	border-top: 1px solid black;

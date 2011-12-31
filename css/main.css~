@@ -54,6 +54,10 @@ header {
 	*/
 }
 
+#logo {
+	width:150px;
+}
+
 .margin {
 	margin-top: 60px;
 }
@@ -86,6 +90,10 @@ header {
 
 #additional-bucket:hover h4{
 	color: black;
+}
+
+.tweet_list {
+	list-style: none;
 }
 
 footer {
