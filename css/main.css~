@@ -1,0 +1,94 @@
+/* some browsers which do not recognise HTML5 elements treat
+   them as inline elements. We want them to treat these as block elements */
+header, section, footer, aside, nav, article, hgroup {
+	display: block;	
+}
+
+/* deals with older browser issues */
+body {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 20px auto;
+	text-align: left;
+}
+
+header {
+	color: white;
+	border-style: solid;
+   border-width: 1px;
+   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+}
+
+.gradient {
+	
+	background-color: #57A957;
+   background-repeat: repeat-x;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	background-image: linear-gradient(center top , #62C462, #57A957);	
+	background-image: -o-linear-gradient(center top , #62C462, #57A957);
+	background-image: -moz-linear-gradient(center top , #62C462, #57A957);
+	background-image: -webkit-linear-gradient(center top , #62C462, #57A957);
+	background-image: -ms-linear-gradient(center top , #62C462, #57A957);	
+		
+	
+	/*
+	background-image: linear-gradient(bottom, rgb(42,128,9) 39%, rgb(72,154,36) 70%, rgb(32,191,38) 91%);
+	background-image: -o-linear-gradient(bottom, rgb(42,128,9) 39%, rgb(72,154,36) 70%, rgb(32,191,38) 91%);
+	background-image: -moz-linear-gradient(bottom, rgb(42,128,9) 39%, rgb(72,154,36) 70%, rgb(32,191,38) 91%);
+	background-image: -webkit-linear-gradient(bottom, rgb(42,128,9) 39%, rgb(72,154,36) 70%, rgb(32,191,38) 91%);
+	background-image: -ms-linear-gradient(bottom, rgb(42,128,9) 39%, rgb(72,154,36) 70%, rgb(32,191,38) 91%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.39, rgb(42,128,9)),
+		color-stop(0.7, rgb(72,154,36)),
+		color-stop(0.91, rgb(32,191,38))
+	);
+	*/
+}
+
+.margin {
+	margin-top: 60px;
+}
+
+.bucket {
+	height: 200px;
+	background-color: #F5F5F5;
+   border-radius: 4px 4px 4px 4px;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-style: solid;
+   border-width: 1px;
+}
+
+.bucket h4 {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.bucket p {
+	padding-left: 25px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+#additional-bucket:hover {
+	background-color: #FDF5D9;
+}
+
+#additional-bucket:hover h4{
+	color: black;
+}
+
+footer {
+	text-align: center;
+	border-top: 1px solid black;
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>Darul Islah</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+	
+		<nav id="navigation">
+  			<div style="z-index: 5;" class="topbar-wrapper">
+    			<div class="topbar" data-scrollspy="scrollspy">
+      			<div class="topbar-inner">
+        				<div class="container">
+          				<ul class="nav">
+            				<li><a href="index.html">Home</a></li>
+            				<li class="active"><a href="background.html">Background</a></li>
+            				<li><a href="mission.html">Mission</a></li>
+            				<li><a href="#">Gallery</a></li>
+            				<li><a href="#">Projects</a></li>
+            				<li><a href="#">Contact</a></li>
+        				</div>
+      			</div><!-- /topbar-inner -->
+    			</div><!-- /topbar -->
+  			</div><!-- /topbar-wrapper -->
+		</nav>	
+		
+		<header id="header">
+			<div class="page-header margin">
+    			<h1>Background <small>Why the centre was created</small></h1>
+  			</div>
+		</header>
+		
+		<section>
+			<article>
+				<div class="well">
+					<p>Darul Islah Wattarbiyah was established in 2001 to cater for the needs of the growing Muslim community in Burnley. 
+					The current Muslim population in Burnley is estimated at around 15,000. The Madrasah was initially a church, built in the 
+					early 1900’s. It is made of solid stone and the building itself is a strong building mashaAllah. It consists of a kitchen, 
+					several classrooms, a library and office, and a prayer hall. The Madrasah was opened on 9th November 2001, in time for 
+					Ramadhan 2001, where our very first Taraweeh prayers took place at Darul Islah Wattarbiyah. Several people joined in 
+					the prayers and Salah congregations started taking place.</p>
+
+					<p>By the grace of Allah Almighty, from these humble beginnings, the congregation has grown and we now have approximately 
+					200 people offering Jumma salaat and over 200 for Eidain. Our official opening was on 31st December 2001, where Hazrat 
+					Maulana Yaqub Saheb, Sheikhul Hadith of Darul Kantharia and Maulana Ismail Manubri, Nazim Ala of Ilm Wal Huda Blackburn 
+					inaugurated the Madrasah.</p>
+
+					<p>Our focus has since remained upon the evening Madrasah for children, where young children between the ages of 5 and 18 
+					receive Islamic education in Quranic recitation and Islamic studies. We currently have Nazirah, Hifz, Arabic and Islamic 
+					studies classes, with a view to begin the full Alim course shortly inshaAllah. All our classes are taught by qualified 
+					Alims / Alimahs and Huffaz. All Quran recitation is taught with Tajweed. We have a very strong Madrasah curriculum and 
+					syllabus which is strictly followed by all teachers. We regularly hold parent's evenings and examinations take place on a 
+					yearly basis. We currently have 14 classes and cater for approximately 300 students, both boys and girls. All girls' classes 
+					are segregated and take place on the 1st floor, taught by qualified Alimahs. Boy's classes take place on the ground floor, 
+					taught by qualified Alims and Huffaz. In addition, there is an adult's program on the weekends for males, and weekdays for 
+					females, where Tajweed and Islamic education is taught. Other efforts, including a daily circle to inspire the qualities of 
+					Imaan and Salah regularly take place.</p>
+
+					<p>Darul Islah Wattarbiyah in situated in an ideal location, (on the main road in Burnley) where access is easily available. 	
+					It currently serves a diverse population, with Muslims mainly from the Indian sub-continent.</p>
+				</div>							
+			</article>
+		</section>		
+		
+		<footer>
+      	Copyright darul-islah 2011
+		</footer>		
+		
+	</div>
+</body>
+</html>

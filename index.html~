@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Darul Islah</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+	
+		<nav id="navigation">
+  			<div style="z-index: 5;" class="topbar-wrapper">
+    			<div class="topbar" data-scrollspy="scrollspy">
+      			<div class="topbar-inner">
+        				<div class="container">
+          				<ul class="nav">
+            				<li class="active"><a href="index.html">Home</a></li>
+            				<li><a href="background.html">Background</a></li>
+            				<li><a href="mission.html">Mission</a></li>
+            				<li><a href="#">Gallery</a></li>
+            				<li><a href="#">Projects</a></li>
+            				<li><a href="#">Contact</a></li>
+        				</div>
+      			</div><!-- /topbar-inner -->
+    			</div><!-- /topbar -->
+  			</div><!-- /topbar-wrapper -->
+		</nav>	
+		
+		<header id="header">
+			<div class="hero-unit gradient">
+			
+				<div class="row">
+					<div class="span3">
+						<img src="images/masjid_silouhette_small.png" alt=""/>
+					</div>
+					<div class="span12">
+						<h1>Darul Islah Wattarbiyah</h1>
+						<p>Centre of Islamic Education & Culture</p>
+						<p><a class="btn primary large" href="background.html">Learn more</a></p>	
+					</div>				
+				</div>			
+				
+			</div>
+		</header>
+		
+		<section id="grid">
+			<div class="row show-grid">
+    			<div id="latest-news" class="span11half bucket">
+    				<h4>Latest news</h4>
+      			<p><!--<span class="label warning">20/11/2011</span>--> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+      			<p><!--<span class="label warning">20/11/2011</span>--> Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. 
+        				Donec id elit non mi porta gravida at eget metus.</p>
+      			<p><!--<span class="label warning">10/03/2009</span>--> Etiam porta sem malesuada magna mollis euismod.</p>
+    			</div>
+    			<div id="additional-bucket" class="span5 bucket">
+    				<h4>Lorem Ipsum</h4>
+    			</div>
+  			</div>
+		</section>
+		
+		<footer>
+      	Copyright darul-islah 2011
+		</footer>		
+		
+	</div>
+</body>
+</html>
