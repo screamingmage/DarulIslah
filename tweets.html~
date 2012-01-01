@@ -52,7 +52,7 @@
 			<div class="row show-grid">
     			<div id="latest-news" class="span11half bucket">
     				<h4>Latest news</h4>
-      			<div class='tweet query'></div>	
+      			<div id="tweets" class='tweet query'></div>	
     			</div>
     			<div id="additional-bucket" class="span5 bucket">
     				<h4>Lorem Ipsum</h4>

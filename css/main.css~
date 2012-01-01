@@ -92,8 +92,19 @@ header {
 	color: black;
 }
 
+#tweets ul li {
+	
+}
+
 .tweet_list {
 	list-style: none;
+}
+
+#map_canvas {
+	width: 960px;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 30px;
 }
 
 footer {

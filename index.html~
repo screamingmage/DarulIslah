@@ -7,25 +7,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-	
-	<script type='text/javascript'>
-    jQuery(function($){
-        $(".tweet").tweet({
-            username: "seaofclouds",
-            join_text: "auto",
-            avatar_size: 32,
-            count: 3,
-            auto_join_text_default: "we said,", 
-            auto_join_text_ed: "we",
-            auto_join_text_ing: "we were",
-            auto_join_text_reply: "we replied to",
-            auto_join_text_url: "we were checking out",
-            loading_text: "loading latest news"
-        });
-    });
-	</script>	
-	
+	<script type="text/javascript" src="js/script.js"></script>	
 </head>
 <body>
 	<div id="wrapper">
