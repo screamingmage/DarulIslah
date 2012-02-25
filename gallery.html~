@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Darul Islah</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+	
+		<nav id="navigation">
+  			<div style="z-index: 5;" class="topbar-wrapper">
+    			<div class="topbar" data-scrollspy="scrollspy">
+      			<div class="topbar-inner">
+        				<div class="container">
+          				<ul class="nav">
+            				<li><a href="index.html">Home</a></li>
+            				<li><a href="background.html">Background</a></li>
+            				<li class="active"><a href="mission.html">Mission</a></li>
+            				<li><a href="#">Gallery</a></li>
+            				<li><a href="#">Projects</a></li>
+            				<li><a href="contact.html">Contact</a></li>
+        				</div>
+      			</div><!-- /topbar-inner -->
+    			</div><!-- /topbar -->
+  			</div><!-- /topbar-wrapper -->
+		</nav>	
+		
+		<header id="header">
+			<div class="page-header margin">
+    			<h1>Gallery <small>Pictures of the masjid and classrooms</small></h1>
+  			</div>  			
+		</header>
+		
+		<section id="gallery">
+		
+		</section>
+		
+		<footer>
+      	Copyright darul-islah 2011
+		</footer>		
+		
+	</div>
+</body>
+</html>
