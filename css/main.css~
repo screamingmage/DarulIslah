@@ -96,10 +96,8 @@ header {
 }
 
 #map_canvas {
-	width: 900px;
 	height: 400px;
 	margin-top: 30px;
-	margin-left: 30px;
 }
 
 footer {
