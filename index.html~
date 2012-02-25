@@ -1,71 +1,88 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Darul Islah</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+   <meta charset="utf-8">
+   <title>Darul Islah</title>
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/bootstrap-responsive.css">
+   <link rel="stylesheet" href="css/docs.css">
+   <link rel="stylesheet" href="css/main.css">
 	
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>	
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+   <script type="text/javascript" src="js/script.js"></script>
+   <script type="text/javascript" src="js/jquery.tweet.js"></script>	
+		
+   <script type='text/javascript'>
+    jQuery(function($){
+        $(".tweet").tweet({
+            username: "darul_islah",
+            join_text: "auto",
+            avatar_size: null,
+            count: 4,
+            auto_join_text_default: null, 
+            auto_join_text_ed: null,
+            auto_join_text_ing: null,
+            auto_join_text_reply: null,
+            auto_join_text_url: null,
+            loading_text: "Loading latest news"
+        });
+        
+        $("#additional-bucket").click(function() {
+            //window.location.href = "/contact.html";
+        });
+    });
+    </script>
 </head>
-<body>
-	<div id="wrapper">
-	
-		<nav id="navigation">
-  			<div style="z-index: 5;" class="topbar-wrapper">
-    			<div class="topbar" data-scrollspy="scrollspy">
-      			<div class="topbar-inner">
-        				<div class="container">
-          				<ul class="nav">
-            				<li class="active"><a href="index.html">Home</a></li>
-            				<li><a href="background.html">Background</a></li>
-            				<li><a href="mission.html">Mission</a></li>
-            				<li><a href="#">Gallery</a></li>
-            				<li><a href="#">Projects</a></li>
-            				<li><a href="#">Contact</a></li>
-        				</div>
-      			</div><!-- /topbar-inner -->
-    			</div><!-- /topbar -->
-  			</div><!-- /topbar-wrapper -->
-		</nav>	
+<body>	
+      <div class="navbar navbar-fixed-top">
+      	<div class="navbar-inner">
+           	<div class="container">
+              	<ul class="nav">
+                 	<li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="background.html">Background</a></li>
+                  <li><a href="mission.html">Mission</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+            </div>
+         </div><!-- /topbar-inner -->
+		</div><!-- /topbar -->	
 		
-		<header id="header">
-			<div class="hero-unit gradient">
+		<div class="container">
+      	<header>
+         	<div class="hero-unit gradient">
+            	<div class="row">
+               	<div class="span2">
+                  	<img src="images/masjid_silouhette_medium.png" alt=""/>
+               	</div>
+               	<div class="span7">
+                  	<h1>Darul Islah Wattarbiyah</h1>
+                  	<p class="whiteText">Centre of Islamic Education & Culture</p>
+                  	<p id="learnBtn"><a class="btn btn-primary btn-large" href="background.html">Learn more</a></p>	
+               	</div>				
+            	</div>			
+         	</div>
+			</header>			
 			
-				<div class="row">
-					<div class="span2">
-						<img src="images/masjid_silouhette_small.png" alt=""/>
-					</div>
-					<div class="span12">
-						<h1>Darul Islah Wattarbiyah</h1>
-						<p>Centre of Islamic Education & Culture</p>
-						<p><a class="btn primary large" href="background.html">Learn more</a></p>	
-					</div>				
-				</div>			
+			<section>
+         	<div class="row-fluid show-grid">
+            	<div id="latest-news" class="span8 bucket">
+               	<h4>Latest news</h4>
+               	<div id="tweets" class='tweet query'></div>
+            	</div>
+            	<div id="additional-bucket" class="span4 bucket">
+               	<h4>Information</h4>
+               	<p>For general queries contact <strong>Maulana Firasat Ullah</strong> on <strong>07988 738141</strong>.</p>
+               	<p>For admissions/student/progress concerns contact <strong>Maulana Inayat Ullah</strong> on <strong>07870 123432</strong>.</p>
+               	<p><a href="contact.html">For full contact details >>></a></p>
+            	</div>
+         	</div>
+			<section>	
 				
-			</div>
-		</header>
+      	<footer>
+         	Copyright darul-islah 2011
+     		</footer>
+      </div>
 		
-		<section id="grid">
-			<div class="row show-grid">
-    			<div id="latest-news" class="span11half bucket">
-    				<h4>Latest news</h4>
-      			<p><!--<span class="label warning">20/11/2011</span>--> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-      			<p><!--<span class="label warning">20/11/2011</span>--> Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. 
-        				Donec id elit non mi porta gravida at eget metus.</p>
-      			<p><!--<span class="label warning">10/03/2009</span>--> Etiam porta sem malesuada magna mollis euismod.</p>
-    			</div>
-    			<div id="additional-bucket" class="span5 bucket">
-    				<h4>Lorem Ipsum</h4>
-    			</div>
-  			</div>
-		</section>
-		
-		<footer>
-      	Copyright darul-islah 2011
-		</footer>		
-		
-	</div>
 </body>
 </html>

@@ -3,8 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>Darul Islah</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/bootstrap-responsive.css">
+   <link rel="stylesheet" href="css/docs.css">
+   <link rel="stylesheet" href="css/main.css">
 	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>           
@@ -32,26 +34,22 @@
 	
 </head>
 <body onload="initialise()">
-	<div id="wrapper">
 	
-		<nav id="navigation">
-  			<div style="z-index: 5;" class="topbar-wrapper">
-    			<div class="topbar" data-scrollspy="scrollspy">
-      			<div class="topbar-inner">
-        				<div class="container">
-          				<ul class="nav">
-            				<li><a href="index.html">Home</a></li>
-            				<li><a href="background.html">Background</a></li>
-            				<li><a href="mission.html">Mission</a></li>
-            				<li><a href="#">Gallery</a></li>
-            				<li><a href="#">Projects</a></li>
-            				<li class="active"><a href="contact.html">Contact</a></li>
-        				</div>
-      			</div><!-- /topbar-inner -->
-    			</div><!-- /topbar -->
-  			</div><!-- /topbar-wrapper -->
-		</nav>	
+		<div class="navbar navbar-fixed-top">
+      	<div class="navbar-inner">
+           	<div class="container">
+              	<ul class="nav">
+                 	<li><a href="index.html">Home</a></li>
+                  <li><a href="background.html">Background</a></li>
+                  <li><a href="mission.html">Mission</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li class="active"><a href="contact.html">Contact</a></li>
+            </div>
+         </div><!-- /topbar-inner -->
+		</div><!-- /topbar -->		
 		
+		<div class="container">
 		<header id="header">
 			<div class="page-header margin">
     			<h1>Contact <small>Address, email and phone</small></h1>
@@ -60,8 +58,8 @@
 		
 		<section>
 			<div class="container">
-        		<div class="row">
-          		<div class="span5">
+        		<div class="row-fluid">
+          		<div class="span4">
 						<h6>Address</h6>
 						<address>
             			<strong>Darul Islah Wattarbiyah</strong><br>
@@ -72,14 +70,16 @@
 							United Kingdom
           			</address>
           		</div>
-          		<div class="span5">
+          		<div class="span4">
 						<h6>Email</h6>
 						admin@darul-islah.com<br>
           		</div>
-          		<div class="span5">
+          		<div class="span4">
 						<h6>Phone</h6>
-						<abbr title="Mobile">Maulana Abdur Razak</abbr> 07813 696360<br>
-						<abbr title="Mobile">Maulana Firasat Ullah</abbr> 07988 738141
+						<p><strong>Office</strong> <em>(Mon-Fri: 5pm - 6pm)</em><br>01282 835493</p>
+						<p><strong>Head Teacher</strong><br>Maulana Firasat Ullah 07988 738141</p>						
+						<p><strong>Administrator</strong><br>Maulana Inayat Ullah 07870 123432</p>
+						<p><strong>Principal (urdu speaking only)</strong><br>Maulana Abdur Razak 07813 696360</p>
           		</div>
         		</div><!-- /row -->
      	 	</div>

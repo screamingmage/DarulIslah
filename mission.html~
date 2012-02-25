@@ -3,80 +3,76 @@
 <head>
 	<meta charset="utf-8">
 	<title>Darul Islah</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/bootstrap-responsive.css">
+   <link rel="stylesheet" href="css/docs.css">
+   <link rel="stylesheet" href="css/main.css">
 	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-	<div id="wrapper">
-	
-		<nav id="navigation">
-  			<div style="z-index: 5;" class="topbar-wrapper">
-    			<div class="topbar" data-scrollspy="scrollspy">
-      			<div class="topbar-inner">
-        				<div class="container">
-          				<ul class="nav">
-            				<li><a href="index.html">Home</a></li>
-            				<li><a href="background.html">Background</a></li>
-            				<li class="active"><a href="mission.html">Mission</a></li>
-            				<li><a href="#">Gallery</a></li>
-            				<li><a href="#">Projects</a></li>
-            				<li><a href="#">Contact</a></li>
-        				</div>
-      			</div><!-- /topbar-inner -->
-    			</div><!-- /topbar -->
-  			</div><!-- /topbar-wrapper -->
-		</nav>	
+		<div class="navbar navbar-fixed-top">
+      	<div class="navbar-inner">
+           	<div class="container">
+              	<ul class="nav">
+                 	<li><a href="index.html">Home</a></li>
+                  <li><a href="background.html">Background</a></li>
+                  <li class="active"><a href="mission.html">Mission</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+            </div>
+         </div><!-- /topbar-inner -->
+		</div><!-- /topbar -->		
 		
-		<header id="header">
-			<div class="page-header margin">
-    			<h1>Mission statement <small>Our aims for the muslims of Burnley</small></h1>
-  			</div>
-		</header>
+		<div class="container">
+			<header id="header">
+				<div class="page-header margin">
+    				<h1>Mission statement <small>Our aims for the muslims of Burnley</small></h1>
+  				</div>
+			</header>
 		
-		<section>
-			<article>
-				<div class="well">
+			<section>
+				<article>
+					<div class="well">
 					
-					<p>Darul Islah Wattarbiyah, the community, administrators, staff, parents and students work 
+						<p>Darul Islah Wattarbiyah, the community, administrators, staff, parents and students work 
 						together to create an Islamic, physical, emotional, social and safe environment where everyone 
 						can learn and respect each other. We care about ourselves and others in order to create, 
 						support and maintain a powerful and engaged learning in the educating of the Holy Quran.</p>
 					
-					<div class="alert-message block-message error">
-        				<p><strong>Darul Islah Wattarbiyah recognises that:</strong></p>
-        				<ul>
-							<li>each child is an individual and special</li>
-							<li>all children are creative</li>
-							<li>all children need to succeed</li>   				
-        				</ul>
-      			</div>					
+						<div class="alert">
+        					<p><strong>Darul Islah Wattarbiyah recognises that:</strong></p>
+        					<ul>
+								<li>each child is an individual and special</li>
+								<li>all children are creative</li>
+								<li>all children need to succeed</li>   				
+        					</ul>
+      				</div>					
 									
-					<p>Therefore Darul Islah Wattarbiyah respects the individual needs of children, fosters a caring and 
-					creative Islamic environment and emphasises the Islamic social, emotional, physical and intellectual 
-					development of each child.</p>
+						<p>Therefore Darul Islah Wattarbiyah respects the individual needs of children, fosters a caring and 
+						creative Islamic environment and emphasises the Islamic social, emotional, physical and intellectual 
+						development of each child.</p>
 
-					<p>Darul Islah Wattarbiyah seeks to create an Islamic learning environment that encourages high expectations 
-					for success through development and appropriate instruction that allows for individual differences and 
-					learning styles. Our Madrasah promotes a safe, orderly, caring and supportive environment. Each student’s self 
-					esteem is fostered by positive relationships amongst students and staff.</p>
+						<p>Darul Islah Wattarbiyah seeks to create an Islamic learning environment that encourages high expectations 
+						for success through development and appropriate instruction that allows for individual differences and 
+						learning styles. Our Madrasah promotes a safe, orderly, caring and supportive environment. Each student’s self 
+						esteem is fostered by positive relationships amongst students and staff.</p>
 
-					<p>We strive to have our parents, teachers and community members actively involved in our student’s learning. 
-					Our mission is to develop young people with active and creative minds, with a sense of understanding, respect 
-					and compassion for others, and the courage to act on their beliefs.</p>
+						<p>We strive to have our parents, teachers and community members actively involved in our student’s learning. 
+						Our mission is to develop young people with active and creative minds, with a sense of understanding, respect 
+						and compassion for others, and the courage to act on their beliefs.</p>
 
-					<p><strong>We stress the total development of each child spiritually, morally and above all, Islamically.</strong></p> 						
+						<p><strong>We stress the total development of each child spiritually, morally and above all, Islamically.</strong></p> 						
 					
-				</div>							
-			</article>
-		</section>		
+					</div>							
+				</article>
+			</section>		
 		
-		<footer>
-      	Copyright darul-islah 2011
-		</footer>		
-		
-	</div>
+			<footer>
+      		Copyright darul-islah 2011
+			</footer>		
+		</div>	
 </body>
 </html>
