@@ -12,7 +12,6 @@
 	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-	<div id="wrapper">
 	
 		<div class="navbar navbar-fixed-top">
       	<div class="navbar-inner">
@@ -21,13 +20,14 @@
                  	<li><a href="index.html">Home</a></li>
                   <li class="active"><a href="background.html">Background</a></li>
                   <li><a href="mission.html">Mission</a></li>
-                  <li><a href="#">Gallery</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
                   <li><a href="#">Projects</a></li>
                   <li><a href="contact.html">Contact</a></li>
             </div>
          </div><!-- /topbar-inner -->
 		</div><!-- /topbar -->
 		
+		<div class="container">
 		<header id="header">
 			<div class="page-header margin">
     			<h1>Background <small>Why the centre was created</small></h1>

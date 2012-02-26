@@ -10,7 +10,9 @@
 	
    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
    <script type="text/javascript" src="js/script.js"></script>
-   <script type="text/javascript" src="js/jquery.tweet.js"></script>	
+   <script type="text/javascript" src="js/jquery.tweet.js"></script>
+   
+   <link rel="shortcut icon" href="favicon.ico/favicon.ico" type="image/x-icon" />
 		
    <script type='text/javascript'>
     jQuery(function($){
@@ -80,7 +82,7 @@
 			<section>	
 				
       	<footer>
-         	Copyright darul-islah 2011
+         	Copyright darul-islah 2012
      		</footer>
       </div>
 		

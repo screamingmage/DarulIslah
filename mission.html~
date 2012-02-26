@@ -10,6 +10,8 @@
 	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
 		<div class="navbar navbar-fixed-top">
@@ -71,7 +73,7 @@
 			</section>		
 		
 			<footer>
-      		Copyright darul-islah 2011
+      		Copyright darul-islah 2012
 			</footer>		
 		</div>	
 </body>

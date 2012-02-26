@@ -10,9 +10,11 @@
 	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>           
+   
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />   
            
    <script type="text/javascript"
-    src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCo3DwCTgHBg_tMExiDABB4yjltComN1Qc&sensor=false"></script>
+    src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAm4I-AwDZAEUkPoLJw4ENQqWbjSRw982M&sensor=false"></script>
 	           
   	<script type="text/javascript">
 		function initialise() {
