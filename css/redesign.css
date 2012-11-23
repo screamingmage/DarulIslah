@@ -1,0 +1,91 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #F5F5F5;
+}
+
+header {
+	border-bottom: 1px solid #E5E5E5;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+header img {
+	margin-left: 6%;
+}
+
+.main-nav {
+	background-color: white;
+	border-bottom: 1px solid #E5E5E5;
+	display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.main-nav .main-nav-item {
+	display: inline-block;
+	padding: 10px 30px 10px 30px;
+}
+
+.main-nav .main-nav-item a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+.main-nav .first-nav-item {
+	margin-left: 7.8%;
+}
+
+.active {
+	border-bottom: 1px solid red;
+}
+
+.active a {
+	color: red;
+	font-weight: bold;
+}
+
+.content {
+	background-color: white;
+	display: inline-block;
+	padding: 10px;
+	width: 100%;
+}
+
+#latest-news {
+	display: inline-block;
+	margin: 20px 10px 20px 7%;
+	width: 50%;
+}
+
+.tile-title {
+	border-bottom: 1px solid #E5E5E5;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+}
+
+#twitter-feed ul {
+	margin: 0px;
+}
+
+#twitter-feed ul li {
+	list-style: none;
+	list-style-type: none;
+	padding-bottom: 4px;
+}
+
+#tiles {
+	display: inline-block;
+	margin: 20px 10px 20px 7%;
+	width: 300px;
+}
+
+.gap {
+	margin-bottom: 28px;
+}
+
+footer {
+    border-top: 1px solid #E5E5E5;
+    padding: 20px 0;
+	text-align: center;
+}

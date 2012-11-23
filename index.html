@@ -1,90 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="utf-8">
-   <title>Darul Islah</title>
-   <link rel="stylesheet" href="css/bootstrap.css">
-   <link rel="stylesheet" href="css/bootstrap-responsive.css">
-   <link rel="stylesheet" href="css/docs.css">
-   <link rel="stylesheet" href="css/main.css">
-	
-   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-   <script type="text/javascript" src="js/script.js"></script>
-   <script type="text/javascript" src="js/jquery.tweet.js"></script>
-   
-   <link rel="shortcut icon" href="favicon.ico/favicon.ico" type="image/x-icon" />
-		
-   <script type='text/javascript'>
-    jQuery(function($){
-        $(".tweet").tweet({
-            username: "darul_islah",
-            join_text: "auto",
-            avatar_size: null,
-            count: 4,
-            auto_join_text_default: null, 
-            auto_join_text_ed: null,
-            auto_join_text_ing: null,
-            auto_join_text_reply: null,
-            auto_join_text_url: null,
-            loading_text: "Loading latest news"
-        });
-        
-        $("#additional-bucket").click(function() {
-            //window.location.href = "/contact.html";
-        });
-    });
-    </script>
-</head>
-<body>	
-      <div class="navbar navbar-fixed-top">
-      	<div class="navbar-inner">
-           	<div class="container">
-              	<ul class="nav">
-                 	<li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="background.html">Background</a></li>
-                  <li><a href="mission.html">Mission</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li><a href="#">Projects</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-            </div>
-         </div><!-- /topbar-inner -->
-		</div><!-- /topbar -->	
-		
-	<div class="container">
-      		<header>
-	         	<div class="hero-unit gradient">
-	            	<div class="row">
-	               	<div class="span2">
-	                  	<img src="images/masjid_silouhette_medium.png" alt=""/>
-	               	</div>
-	               	<div class="span7">
-	                  	<h1>Darul Islah Wattarbiyah</h1>
-	                  	<p class="whiteText">Centre of Islamic Education & Culture</p>
-	                  	<p id="learnBtn"><a class="btn btn-primary btn-large" href="background.html">Learn more</a></p>	
-	               	</div>				
-	            	</div>			
-	         	</div>
-			</header>			
+	<head>
+		<meta charset="utf-8">
+		<title>Darul Islah</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="css/redesign.css">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jquery.tweet.js"></script>
+
+		<link rel="shortcut icon" href="favicon.ico/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+
+		<header>
+			<a href="index.html"><img src="images/header-logo.png" width="380" height="60" alt="Darul Islah" /></a>
+		</header>
+
+		<div class="main-nav">
+			<div class="main-nav-item first-nav-item active">
+				<a href="/">Home</a>
+			</div>
+			<div class="main-nav-item">
+				<a href="/">Background</a>
+			</div>
+			<div class="main-nav-item">
+				<a href="/">Gallery</a>
+			</div>
+			<div class="main-nav-item">
+				<a href="/">Video</a>
+			</div>
+			<div class="main-nav-item">
+				<a href="/">Contact</a>
+			</div>
+		</div>
+
+		<div class="content">
+			<div id="latest-news">
+				<h4 class="tile-title">Latest News</h4>
+				<div id="twitter-feed" class="tweet"></div>			
+			</div>
 			
-			<section>
-	         	<div class="row-fluid show-grid">
-	            	<div id="latest-news" class="span8 bucket">
-		               	<h4>Latest news</h4>
-		               	<div id="tweets" class='tweet query'></div>
-	            	</div>
-	            	<div id="additional-bucket" class="span4 bucket">
-		               	<h4>Information</h4>
-		               	<p>For general queries contact <strong>Maulana Firasat Ullah</strong> on <strong>07988 738141</strong>.</p>
-		               	<p>For admissions/student/progress concerns contact <strong>Maulana Inayat Ullah</strong> on <strong>07870 123432</strong>.</p>
-		               	<p><a href="contact.html">For full contact details >>></a></p>
-	            	</div>
-	         	</div>
-			<section>	
-				
-      	<footer>
-         	Copyright darul-islah 2012
-     	</footer>
-	</div>
+			<div id="tiles">
+				<div id="prayers" class="gap">
+					<h4 class="tile-title">Prayer Timetable</h4>
+					<p><strong>Fajr:</strong> 07:30</p>
+					<p><strong>Zuhr:</strong> 13:30</p>
+					<p><strong>Asr:</strong> 15:00</p>
+					<p><strong>Maghrib:</strong> sunset</p>
+					<p><strong>Isha:</strong> 18:30</p>
+					<p><strong>Juma:</strong> 13:30</p>
+				</div>
+				<div id="contact">
+					<h4 class="tile-title">Contact Information</h4>
+	               	<p>For general queries contact <strong>Maulana Firasat Ullah</strong> on <strong>07988 738141</strong>.</p>
+	               	<p>For admissions/student/progress concerns contact <strong>Maulana Inayat Ullah</strong> on <strong>07870 123432</strong>.</p>
+	               	<p><a href="contact.html">For full contact details &gt;&gt;&gt;</a></p>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			Copyright darul-islah 2012
+		</footer>
 		
-</body>
+		
+		<script type='text/javascript'>
+		    jQuery(function($){
+		        $(".tweet").tweet({
+		            username: "darul_islah",
+		            join_text: "auto",
+		            avatar_size: null,
+		            count: 10,
+		            auto_join_text_default: null, 
+		            auto_join_text_ed: null,
+		            auto_join_text_ing: null,
+		            auto_join_text_reply: null,
+		            auto_join_text_url: null,
+		            loading_text: "Loading latest news"
+		        });
+		    });
+	    </script>
+	</body>
 </html>
