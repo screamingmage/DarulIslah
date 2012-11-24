@@ -52,18 +52,6 @@ header img {
 	width: 100%;
 }
 
-#latest-news {
-	display: inline-block;
-	margin: 20px 10px 20px 7%;
-	width: 50%;
-}
-
-.tile-title {
-	border-bottom: 1px solid #E5E5E5;
-	margin-bottom: 8px;
-	padding-bottom: 8px;
-}
-
 #twitter-feed ul {
 	margin: 0px;
 }
@@ -74,14 +62,38 @@ header img {
 	padding-bottom: 4px;
 }
 
-#tiles {
+.tile-title {
+	border-bottom: 1px solid #E5E5E5;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+}
+
+.tiles {
 	display: inline-block;
 	margin: 20px 10px 20px 7%;
+}
+
+.full-tile-width {
+	width: 80%;
+	min-width: 600px;
+}
+
+.larger-tile-width {
+	width: 50%;
+}
+
+.smaller-tile-width {
 	width: 300px;
 }
 
 .gap {
 	margin-bottom: 28px;
+}
+
+#map_canvas {
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 footer {

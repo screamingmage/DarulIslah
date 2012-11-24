@@ -1,100 +1,132 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Darul Islah</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-   <link rel="stylesheet" href="css/bootstrap-responsive.css">
-   <link rel="stylesheet" href="css/docs.css">
-   <link rel="stylesheet" href="css/main.css">
-	
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>           
-   
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />   
-           
-   <script type="text/javascript"
-    src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAdmV_iY0m0PXE5KUP9Y7oAeNcjNblhE4g&sensor=false"></script>
-	           
-  	<script type="text/javascript">
-		function initialise() {
-    		var latlng = new google.maps.LatLng(53.798648,-2.238057);
-    		var myOptions = {
-      		zoom: 16,
-      		center: latlng,
-      		mapTypeId: google.maps.MapTypeId.ROADMAP
-    		};
-    		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-    		
-    		var marker = new google.maps.Marker({
-	      		position: latlng,
-	      		map: map,
-	      		title:"Darul Islah Wattarbiyah"
- 			});
-  		}
-	</script>
-	
-</head>
-<body onload="initialise()">
-	
-		<div class="navbar navbar-fixed-top">
-      	<div class="navbar-inner">
-           	<div class="container">
-              	<ul class="nav">
-                 	<li><a href="index.html">Home</a></li>
-                  <li><a href="background.html">Background</a></li>
-                  <li><a href="mission.html">Mission</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li><a href="#">Projects</a></li>
-                  <li class="active"><a href="contact.html">Contact</a></li>
-            </div>
-         </div><!-- /topbar-inner -->
-		</div><!-- /topbar -->		
-		
-		<div class="container">
-		<header id="header">
-			<div class="page-header margin">
-    			<h1>Contact <small>Address, email and phone</small></h1>
-  			</div>
+	<head>
+		<meta charset="utf-8">
+		<title>Darul Islah</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="css/redesign.css">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jquery.tweet.js"></script>
+
+		<link rel="shortcut icon" href="favicon.ico/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+
+		<header>
+			<a href="index.html"><img src="images/header-logo.png" width="380" height="60" alt="Darul Islah" /></a>
 		</header>
-		
-		<section>
-			<div class="container">
-        		<div class="row-fluid">
-          		<div class="span4">
-						<h6>Address</h6>
-						<address>
-            			<strong>Darul Islah Wattarbiyah</strong><br>
-							63A Colne Road<br>
-							Burnley<br>
-							BB10 1LJ<br>
-							Lancashire<br>
-							United Kingdom
-          			</address>
-          		</div>
-          		<div class="span4">
-						<h6>Email</h6>
-						admin@darul-islah.com<br>
-          		</div>
-          		<div class="span4">
-						<h6>Phone</h6>
-						<p><strong>Office</strong> <em>(Mon-Fri: 5pm - 6pm)</em><br>01282 835493</p>
-						<p><strong>Head Teacher</strong><br>Maulana Firasat Ullah 07988 738141</p>						
-						<p><strong>Administrator</strong><br>Maulana Inayat Ullah 07870 123432</p>
-						<p><strong>Principal (urdu speaking only)</strong><br>Maulana Abdur Razak 07813 696360</p>
-          		</div>
-        		</div><!-- /row -->
-     	 	</div>
-		</section>		
-		
-		<section>
-			<div id="map_canvas"></div>
-		</section>		
+
+		<div class="main-nav">
+			<div class="main-nav-item first-nav-item">
+				<a href="index.html">Home</a>
+			</div>
+			<div class="main-nav-item">
+				<a href="background.html">Background</a>
+			</div>
+			<div class="main-nav-item">
+				<a href="/">Gallery</a>
+			</div>
+			<div class="main-nav-item">
+				<a href="/">Video</a>
+			</div>
+			<div class="main-nav-item active">
+				<a href="/">Contact</a>
+			</div>
+		</div>
+
+
+		<div class="content">
+			<div class="tiles">
+				<h4 class="tile-title">Full contact details</h4>
+				<section>
+					<div class="container">
+						<div class="row-fluid">
+							<div class="span4">
+								<h6>Address</h6>
+								<address>
+									<strong>Darul Islah Wattarbiyah</strong>
+									<br>
+									63A Colne Road
+									<br>
+									Burnley
+									<br>
+									BB10 1LJ
+									<br>
+									Lancashire
+									<br>
+									United Kingdom
+								</address>
+							</div>
+							<div class="span4">
+								<h6>Email</h6>
+								admin@darul-islah.com
+								<br>
+							</div>
+							<div class="span4">
+								<h6>Phone</h6>
+								<p>
+									<strong>Office</strong><em>(Mon-Fri: 5pm - 6pm)</em>
+									<br>
+									01282 835493
+								</p>
+								<p>
+									<strong>Head Teacher</strong>
+									<br>
+									Maulana Firasat Ullah 07988 738141
+								</p>
+								<p>
+									<strong>Administrator</strong>
+									<br>
+									Maulana Inayat Ullah 07870 123432
+								</p>
+								<p>
+									<strong>Principal (urdu speaking only)</strong>
+									<br>
+									Maulana Abdur Razak 07813 696360
+								</p>
+							</div>
+						</div><!-- /row -->
+					</div>
+				</section>
+			</div>
+			
+			<div class="tiles full-tile-width">	
+				<section>
+					<div id="map_canvas"></div>
+				</section>
+			</div>
+
+		</div>
 		
 		<footer>
-      		Copyright darul-islah 2012
-		</footer>		
+			Copyright darul-islah 2012
+		</footer>
 		
-	</div>
-</body>
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAdmV_iY0m0PXE5KUP9Y7oAeNcjNblhE4g&sensor=false"></script>
+		<script type="text/javascript">
+			function initialise() {
+				var latlng = new google.maps.LatLng(53.798648, -2.238057);
+				var myOptions = {
+					zoom : 16,
+					center : latlng,
+					mapTypeId : google.maps.MapTypeId.ROADMAP
+				};
+				var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+				var marker = new google.maps.Marker({
+					position : latlng,
+					map : map,
+					title : "Darul Islah Wattarbiyah"
+				});
+			}
+			
+			$(document).ready(function() {
+			  initialise();
+			});
+		</script>
+
+	</body>
 </html>
