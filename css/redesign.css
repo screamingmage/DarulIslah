@@ -11,7 +11,7 @@ header {
 }
 
 header img {
-	margin-left: 6%;
+	margin-left: 3%;
 }
 
 .main-nav {
@@ -33,11 +33,12 @@ header img {
 }
 
 .main-nav .first-nav-item {
-	margin-left: 7.8%;
+	margin-left: 4%;
 }
 
 .active {
 	border-bottom: 1px solid red;
+	color: red;
 }
 
 .active a {
@@ -46,7 +47,7 @@ header img {
 }
 
 .content {
-	background-color: white;
+	background-color: #F5F5F5;
 	display: inline-block;
 	padding: 10px;
 	width: 100%;
@@ -65,12 +66,21 @@ header img {
 .tile-title {
 	border-bottom: 1px solid #E5E5E5;
 	margin-bottom: 8px;
-	padding-bottom: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left:6px;
+	color: white;
+	background-color: #089A3F;
 }
 
 .tiles {
 	display: inline-block;
-	margin: 20px 10px 20px 7%;
+	margin: 20px 10px 20px 3%;
+	vertical-align: top;
+}
+
+.well {
+	background-color: #FFFFFF;
 }
 
 .full-tile-width {
@@ -87,7 +97,7 @@ header img {
 }
 
 .gap {
-	margin-bottom: 28px;
+	margin-top: 28px;
 }
 
 #map_canvas {
@@ -97,6 +107,7 @@ header img {
 }
 
 footer {
+    background-color: #FFFFFF;
     border-top: 1px solid #E5E5E5;
     padding: 20px 0;
 	text-align: center;
