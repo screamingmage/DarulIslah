@@ -1,11 +1,12 @@
 @CHARSET "ISO-8859-1";
 
 body {
-	background-color: #F5F5F5;
+	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
 }
 
 header {
-	border-bottom: 1px solid #E5E5E5;
+	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
+	border-bottom: 1px solid #998989;
 	padding-bottom: 20px;
 	padding-top: 30px;
 }
@@ -16,7 +17,7 @@ header img {
 
 .main-nav {
 	background-color: white;
-	border-bottom: 1px solid #E5E5E5;
+	border-bottom: 1px solid #666;
 	display: inline-block;
     white-space: nowrap;
     width: 100%;
@@ -47,7 +48,7 @@ header img {
 }
 
 .content {
-	background-color: #F5F5F5;
+	background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png") repeat scroll 0% 0% transparent;
 	display: inline-block;
 	padding: 10px;
 	width: 100%;
@@ -64,10 +65,9 @@ header img {
 }
 
 .tile-title {
-	border-bottom: 1px solid #E5E5E5;
 	margin-bottom: 8px;
 	padding-top: 2px;
-	padding-bottom: 2px;
+	padding-bottom: 3px;
 	padding-left:6px;
 	color: white;
 	background-color: #089A3F;
@@ -75,29 +75,36 @@ header img {
 
 .tiles {
 	display: inline-block;
-	margin: 20px 10px 20px 3%;
+	margin: 20px 10px 20px 1.5%;
 	vertical-align: top;
 }
 
 .well {
 	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.5);
 }
 
 .full-tile-width {
 	width: 80%;
-	min-width: 600px;
 }
 
 .larger-tile-width {
-	width: 50%;
+	width: 60%;
+	min-width: 600px;
 }
 
 .smaller-tile-width {
 	width: 300px;
 }
 
+.larger-tile-width {
+	width: 760px;
+}
+
 .gap {
-	margin-top: 28px;
+	margin-top: 1.5%;
 }
 
 #map_canvas {
@@ -107,8 +114,9 @@ header img {
 }
 
 footer {
-    background-color: #FFFFFF;
-    border-top: 1px solid #E5E5E5;
+	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
+    border-top: 1px solid #666;
+	color: white;
     padding: 20px 0;
 	text-align: center;
 }

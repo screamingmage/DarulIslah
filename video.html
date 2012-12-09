@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Darul Islah</title>
+		<link rel="stylesheet" href="css/23asd22nk.css">
+		<link rel="stylesheet" href="css/ufrPrp6xwewe.css">
+		<link rel="stylesheet" href="css/redesign.css">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jquery.tweet.js"></script>
+
+		<link rel="shortcut icon" href="favicon.ico/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+
+		<header>
+			<a href="index.html"><img src="images/header-logo-white.png" width="380" height="60" alt="Darul Islah" /></a>
+		</header>
+
+		<div class="main-nav">
+			<div class="main-nav-item first-nav-item">
+				<a href="index.html">Home</a>
+			</div>
+			<div class="main-nav-item">
+				<a href="background.html">Background</a>
+			</div>
+			<div class="main-nav-item">
+				<a href="/">Gallery</a>
+			</div>
+			<div class="main-nav-item active">
+				<a href="video.html">Video</a>
+			</div>
+			<div class="main-nav-item">
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="tiles video-tile-width">
+				<iframe class="player" width="760" height="515" src="http://www.youtube.com/embed/t3GOGAWgrvE" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="tiles smaller-tile-width">
+				<div class="well">
+					<h4 class="tile-title">Talks</h4>	
+					<p><a class="video" href="http://www.youtube.com/embed/t3GOGAWgrvE">Video 1</a></p>
+					<p><a class="video" href="http://www.youtube.com/embed/thsNJS4eAOo">Video 2</a></p>
+					<p><a class="video" href="http://www.youtube.com/embed/NDRurqoGN5Q">Video 3</a></p>					
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			Copyright darul-islah 2012
+		</footer>
+		
+		
+		<script type='text/javascript'>
+	        $('.video').click(function() {
+			    var address = $(this).attr("href");
+			    $('.player').attr('src',address);
+			    return false;
+			});
+			
+	    </script>
+		
+	</body>
+</html>
