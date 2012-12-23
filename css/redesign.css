@@ -6,7 +6,7 @@ body {
 
 header {
 	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
-	border-bottom: 1px solid #998989;
+	border-bottom: 1px solid #999;
 	padding-bottom: 20px;
 	padding-top: 30px;
 }
@@ -16,8 +16,8 @@ header img {
 }
 
 .main-nav {
-	background-color: white;
-	border-bottom: 1px solid #666;
+	background-color: #078136;
+	border-bottom: 1px solid #999;
 	display: inline-block;
     white-space: nowrap;
     width: 100%;
@@ -28,8 +28,14 @@ header img {
 	padding: 10px 30px 10px 30px;
 }
 
+.main-nav .main-nav-item a {
+	color: white;
+	font-weight: bold;
+}
+
 .main-nav .main-nav-item a:hover {
-	color: green;
+	color: black;
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -38,8 +44,8 @@ header img {
 }
 
 .active {
-	border-bottom: 1px solid red;
-	color: red;
+	border-bottom: 1px solid #eee;
+	color: #eee;
 }
 
 .active a {
@@ -87,7 +93,8 @@ header img {
 }
 
 .full-tile-width {
-	width: 80%;
+	width: 70%;
+	min-width: 500px;
 }
 
 .larger-tile-width {
@@ -111,11 +118,12 @@ header img {
 	height: 400px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	min-width: 500px;
 }
 
 footer {
 	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
-    border-top: 1px solid #666;
+    border-top: 1px solid #999;
 	color: white;
     padding: 20px 0;
 	text-align: center;
