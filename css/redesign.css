@@ -87,14 +87,14 @@ header img {
 
 .well {
 	background-color: #FFFFFF;
-	border: 1px solid rgba(0, 0, 0, 0.5);
+	/*border: 1px solid rgba(0, 0, 0, 0.5);
 	box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.5);*/
 }
 
 .full-tile-width {
-	width: 70%;
-	min-width: 500px;
+	width: 80%;
+	min-width: 300px;
 }
 
 .larger-tile-width {
@@ -106,8 +106,8 @@ header img {
 	width: 300px;
 }
 
-.larger-tile-width {
-	width: 760px;
+.menu-tile-width {
+	width: 200px;
 }
 
 .gap {
