@@ -35,7 +35,7 @@
     }, o);
 
     // See http://daringfireball.net/2010/07/improved_regex_for_matching_urls
-    var url_regexp = /\b((?:[a-z][\w-]+:(?:\/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))/gi;
+    var url_regexp = /\b((?:[a-z][\w-]+:(?:\/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?Â«Â»â€œâ€�â€˜â€™]))/gi;
 
     // Expand values inside simple string templates with {placeholders}
     function t(template, info) {
@@ -191,11 +191,11 @@
 
       // Default spans, and pre-formatted blocks for common layouts
       o.user = t('<a class="tweet_user" href="{user_url}">{screen_name}</a>', o);
-      o.join = s.join_text ? t(' <span class="tweet_join">{join_text}</span> ', o) : ' ';
+      o.join = s.join_text ? t(' {join_text} ', o) : ' ';
       o.avatar = o.avatar_size ?
         t('<a class="tweet_avatar" href="{user_url}"><img src="{avatar_url}" height="{avatar_size}" width="{avatar_size}" alt="{screen_name}\'s avatar" title="{screen_name}\'s avatar" border="0"/></a>', o) : '';
-      o.time = t('<span class="tweet_time"><a href="{tweet_url}" title="view tweet on twitter">{tweet_relative_time}</a></span>', o);
-      o.text = t('<span class="tweet_text">{tweet_text_fancy}</span>', o);
+      o.time = t('<a href="{tweet_url}" title="view tweet on twitter">{tweet_relative_time}</a>', o);
+      o.text = t('{tweet_text_fancy}', o);
       o.reply_action = t('<a class="tweet_action tweet_reply" href="{reply_url}">reply</a>', o);
       o.retweet_action = t('<a class="tweet_action tweet_retweet" href="{retweet_url}">retweet</a>', o);
       o.favorite_action = t('<a class="tweet_action tweet_favorite" href="{favorite_url}">favorite</a>', o);
@@ -221,7 +221,7 @@
 
           var tweets = $.map(data.results || data, extract_template_data);
           tweets = $.grep(tweets, s.filter).sort(s.comparator).slice(0, s.count);
-          list.append($.map(tweets, function(o) { return "<li>" + t(s.template, o) + "</li>"; }).join('')).
+          list.append($.map(tweets, function(o) { return "<li><p>" + t(s.template, o) + "</p></li>"; }).join('')).
               children('li:first').addClass('tweet_first').end().
               children('li:odd').addClass('tweet_even').end().
               children('li:even').addClass('tweet_odd');
