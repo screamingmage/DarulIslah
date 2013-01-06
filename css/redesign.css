@@ -2,25 +2,24 @@
 
 body {
 	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
+	min-width: 1024px;
 }
 
 header {
 	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
 	border-bottom: 1px solid #999;
-	min-width: 800px;
 	padding-bottom: 20px;
 	padding-top: 30px;
 }
 
 header img {
-	margin-left: 3%;
+	margin-left: 30px;
 }
 
 .main-nav {
 	background-color: #078136;
 	border-bottom: 1px solid #999;
 	display: inline-block;
-    min-width: 800px; 
     white-space: nowrap;
     width: 100%;
 }
@@ -42,7 +41,7 @@ header img {
 }
 
 .main-nav .first-nav-item {
-	margin-left: 4%;
+	margin-left: 40px;
 }
 
 .active {
@@ -106,12 +105,12 @@ header img {
 
 .full-tile-width {
 	width: 80%;
-	min-width: 700px;
+	min-width: 650px;
 }
 
 .larger-tile-width {
 	width: 60%;
-	min-width: 700px;
+	min-width: 650px;
 }
 
 .smaller-tile-width {
