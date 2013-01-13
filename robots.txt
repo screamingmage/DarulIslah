@@ -1,0 +1,7 @@
+User-agent: Slurp
+Disallow: /*?*$
+
+User-agent: * 
+Disallow: /cgi-bin
+Disallow: /cgi-perl
+Disallow: /cgi-store

@@ -1,8 +1,7 @@
 @CHARSET "ISO-8859-1";
-
 body {
 	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
-	min-width: 1024px;
+	min-width: 380px;
 }
 
 header {
@@ -12,14 +11,11 @@ header {
 	padding-top: 30px;
 }
 
-header img {
-	margin-left: 30px;
-}
-
 .main-nav {
 	background-color: #078136;
 	border-bottom: 1px solid #999;
 	display: inline-block;
+	min-width: 380px;
     white-space: nowrap;
     width: 100%;
 }
@@ -27,6 +23,10 @@ header img {
 .main-nav .main-nav-item {
 	display: inline-block;
 	padding: 10px 30px 10px 30px;
+}
+
+.main-nav .first-nav-item {
+	margin-left: 40px;
 }
 
 .main-nav .main-nav-item a {
@@ -40,18 +40,9 @@ header img {
 	text-decoration: none;
 }
 
-.main-nav .first-nav-item {
-	margin-left: 40px;
-}
-
 .active {
 	border-bottom: 1px solid #eee;
 	color: #eee;
-}
-
-.active a {
-	color: red;
-	font-weight: bold;
 }
 
 .content {
@@ -59,6 +50,24 @@ header img {
 	display: inline-block;
 	padding: 10px;
 	width: 100%;
+}
+
+.tile-title {
+	margin-bottom: 8px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	padding-left:6px;
+	color: white;
+	background-color: #089A3F;
+}
+
+.tiles {
+	vertical-align: top;
+}
+
+.well {
+	background-color: #FFFFFF;
+	margin-bottom: 25px;
 }
 
 #twitter-feed ul {
@@ -80,47 +89,6 @@ header img {
 	margin-right: 2px;
 }
 
-.tile-title {
-	margin-bottom: 8px;
-	padding-top: 2px;
-	padding-bottom: 3px;
-	padding-left:6px;
-	color: white;
-	background-color: #089A3F;
-}
-
-.tiles {
-	display: inline-block;
-	margin: 20px 10px 20px 1.5%;
-	vertical-align: top;
-}
-
-.well {
-	background-color: #FFFFFF;
-	margin-bottom: 25px;
-	/*border: 1px solid rgba(0, 0, 0, 0.5);
-	box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.5);*/
-}
-
-.full-tile-width {
-	width: 80%;
-	min-width: 650px;
-}
-
-.larger-tile-width {
-	width: 60%;
-	min-width: 650px;
-}
-
-.smaller-tile-width {
-	width: 300px;
-}
-
-.menu-tile-width {
-	width: 200px;
-}
-
 .gap {
 	margin-top: 1.5%;
 }
@@ -130,11 +98,13 @@ h4.break {
 	margin-bottom: 10px;
 }
 
-#map_canvas {
-	height: 400px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	min-width: 500px;
+.video-tile-width iframe {
+	width: 380px; 
+	height: 257.5px;
+}
+
+.mobile {
+	display: none;
 }
 
 footer {

@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	min-width: 1024px;
+}
+
+header img {
+	margin-left: 30px;
+}
+
+.main-nav .main-nav-item {
+	display: inline-block;
+}
+
+.main-nav .first-nav-item {
+	margin-left: 40px;
+}
+
+.tiles {
+	display: inline-block;
+	margin: 20px 10px 20px 1.5%;
+}
+
+.full-tile-width {
+	width: 80%;
+	min-width: 650px;
+}
+
+.larger-tile-width {
+	width: 60%;
+	min-width: 650px;
+}
+
+.smaller-tile-width {
+	width: 300px;
+}
+
+.video-tile-width iframe {
+	width: 760px; 
+	height: 515px;
+}
+
+.menu-tile-width {
+	width: 200px;
+}
+
+.mobile {
+	display: none;
+}
+
+#map_canvas {
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	min-width: 500px;
+}

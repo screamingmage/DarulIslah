@@ -1,110 +1,83 @@
 @CHARSET "ISO-8859-1";
 
-body {
-	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
-}
-
-header {
-	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
-	border-bottom: 1px solid #999;
-	padding-bottom: 20px;
-	padding-top: 30px;
-	width: 100%;
-}
-
 header img {
-	margin-left: 6px;
+	margin-left: 3px;
 }
 
 .main-nav {
-	background-color: #078136;
-	border-bottom: 1px solid #999;
 	display: none;
-    white-space: nowrap;
-    width: 100%;
-}
-
-.content {
-	background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png") repeat scroll 0% 0% transparent;
-	padding: 10px;
-	width: 100%;
-}
-
-#twitter-feed ul {
-	margin: 0px;
-}
-
-#twitter-feed ul li {
-	list-style: none;
-	list-style-type: none;
-	padding-bottom: 4px;
-}
-
-#twitter-feed ul li p {
-	margin: 0 0 2px 0;
-	padding: 0;
-}
-
-#twitter-feed ul li a {
-	margin-right: 2px;
-}
-
-.tile-title {
-	background-color: #089A3F;
-	color: white;
-	margin-bottom: 8px;
-	padding-top: 2px;
-	padding-bottom: 3px;
-	padding-left:6px;
 }
 
 .tiles {
 	padding: 20px 10px 0px 10px;
-	vertical-align: top;
 	width: 100%;
 }
-
-.well {
-	background-color: #FFFFFF;
-	margin-bottom: 25px;
-}
-
+ 
 .full-tile-width {
-	width: 90% !important;
+	width: 90%;
 }
 
 .larger-tile-width {
-	width: 90% !important;
+	width: 90%;
 }
 
 .smaller-tile-width {
-	width: 90% !important;
+	width: 90%;
 }
 
 .menu-tile-width {
-	width: 200px;
+	margin-bottom: 25px;
+	width: 90%;
 }
 
-.gap {
-	margin-top: 1.5%;
+.menu-tile-width well ul{
+	margin: 0;
+	padding: 0;
 }
 
-h4.break {
-	margin-top: 20px;
-	margin-bottom: 10px;
+.video-tile-width {
+	margin-bottom: 25px;
+}
+
+.video-tile-width iframe {
+	width: 320px; 
+	height: 240px;
+}
+
+.desktop {
+	display: none;
+}
+
+.mobile {
+	display: block;
+}
+
+.mobile-nav {
+	background-color: #078136;
+	border-bottom: 1px solid #999;
+	margin-bottom: 20px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.mobile-nav .mobile-nav-item {
+	border-bottom: 1px solid #999;
+	padding: 10px 10px 10px 10px;
+	text-align: left;
+}
+
+.mobile-nav .mobile-nav-item a {
+	color: white;
+	display:block;
+	font-weight: bold;
+}
+
+footer {
+	padding: 0px 0px 20px 0px;
 }
 
 #map_canvas {
 	height: 400px;
 	margin: 20px 10px 20px 10px;
 	width: 100%;
-}
-
-footer {
-	background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png);
-    border-top: 1px solid #999;
-	color: white;
-    margin-top: 20px;
-    padding: 20px 0;
-	text-align: center;
 }
