@@ -49,7 +49,10 @@ header {
 	background: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/wild_oliva.png") repeat scroll 0% 0% transparent;
 	display: inline-block;
 	padding: 10px;
-	width: 100%;
+}
+
+.container {
+	padding: 0;
 }
 
 .tile-title {
@@ -96,6 +99,13 @@ header {
 h4.break {
 	margin-top: 20px;
 	margin-bottom: 10px;
+}
+
+#map_canvas {
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	min-width: 500px;
 }
 
 .video-tile-width iframe {
