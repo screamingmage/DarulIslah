@@ -18,7 +18,6 @@
 		<link media="screen and (min-width: 1024px)" rel="stylesheet" href="css/desktop.css" />
 			
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.tweet.js"></script>
 
 		<link rel="shortcut icon" href="favicon.ico/favicon.ico" type="image/x-icon" />
 	</head>
@@ -55,7 +54,7 @@
 					<h4 class="tile-title">Latest News</h4>
 					<div id="twitter-feed" class="tweet">
 					</div>
-				</div>
+                </div>
 				<div class="well">
 					<h4 class="tile-title">Masjid Services</h4>
 					<p>We provide a trusted and professional service to cater for the following life events:</p>
@@ -69,11 +68,11 @@
 			<div class="tiles smaller-tile-width">
 				<div class="well">
 					<h4 class="tile-title">Prayer Timetable</h4>
-					<p><strong>Fajr:</strong> 07:30</p>
+					<p><strong>Fajr:</strong> 03:15</p>
 					<p><strong>Zuhr:</strong> 13:30</p>
-					<p><strong>Asr:</strong> 15:00</p>
+					<p><strong>Asr:</strong> 20:30</p>
 					<p><strong>Maghrib:</strong> sunset</p>
-					<p><strong>Isha:</strong> 19:00</p>
+					<p><strong>Isha:</strong> 11:00</p>
 					<p><strong>Juma:</strong> 13:30</p>
 				</div>
 				<div class="well">
@@ -116,22 +115,24 @@
 			Copyright darul-islah 2013
 		</footer>
 		
-		
+		<script type="text/javascript" src="js/twitter.js"></script>
 		<script type='text/javascript'>
-		    jQuery(function($){
-		        $(".tweet").tweet({
-		            username: "darul_islah",
-		            join_text: "auto",
-		            avatar_size: null,
-		            count: 15,
-		            auto_join_text_default: null, 
-		            auto_join_text_ed: null,
-		            auto_join_text_ing: null,
-		            auto_join_text_reply: null,
-		            auto_join_text_url: null,
-		            loading_text: "Loading latest news"
-		        });
-		    });
-	    </script>
+        
+            function handleTweets(tweets){
+                var x = tweets.length;
+                var n = 0;
+                var element = document.getElementById('twitter-feed');
+                var html = '<ul>';
+                while(n < x) {
+                  html += '<li>' + tweets[n] + '</li>';
+                  n++;
+                }
+                html += '</ul>';
+                element.innerHTML = html;
+            }
+            
+            twitterFetcher.fetch('360758162044887040', '', 12, true, false, true, '', false, handleTweets);
+	    
+        </script>
 	</body>
 </html>
